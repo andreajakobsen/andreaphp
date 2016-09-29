@@ -1,7 +1,10 @@
 <?php 
 session_start();
 
-echo session_id();
+$curpage='restricted.php';
+include 'menumenu.php';
+
+/* echo session_id(); */
 
 ?>
 <!DOCTYPE html>
@@ -22,7 +25,7 @@ echo session_id();
 
 }
 ?>
-<p>poqwewjrekfn</p>
+
 
 </body>
 </html>

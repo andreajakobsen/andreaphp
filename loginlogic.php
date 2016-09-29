@@ -1,6 +1,9 @@
 <?php  
 if (isset($_POST['login'])) {
  	require_once('dbconst.php');
+	
+	$curpage='login.php';
+	include 'menu.php';
 
 
 	$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Missing or illegal email');
