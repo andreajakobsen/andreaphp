@@ -1,6 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-weight: lighter;
+	padding: 0px;
+	margin: 0px;
+	font-family:font-family:"Fira Sans Book";
+	}
+nav{ 
+    margin-top: 2%;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;}
+	
+a {
+	color:grey;
+	}
+	
+a:hover{
+	color:#000000; }
+	
+
+.menulinje {
+    color: #9E9E9E;
+    text-decoration: none;
+	opacity: 6.0;
+	text-align: center;
+	position: fixed;
+	font-family: Raleway, helvetica, sans-serif;
+	font-weight:lighter;
+	padding: 20px 0 20px 0;
+	background-color: #EBE4DE;
+	width: 100%;
+	letter-spacing: 1.5px;
+   
+	
+	
+	
+	
+}	
+
+.menulinje li{
+    list-style: none;
+	margin-right: 50px;
+    display: inline;
+    font-family: Raleway, helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+
+}
+
+a {
+	color: #9E9E9E;
+}
+
+a:hover{
+	color:#353535
+	}
+	
+/* Jeg farver menupunktet, så man kan se hvilken side man er inde på */
+.active {
+	color: white;
+	
+}
+
+.wrapper{
+    height: 250px;
+    
+    
+}
+
+#formular{
+    float:left;
+    margin-left: 30%;
+	height: 300px;
+	width:200px; 
+	text-align: center;
+	padding: 10px 25px;;
+	opacity: 3.0;
+	font-family: Raleway, helvetica, sans-serif;
+	background-color: #B1C2C0;
+	margin-top: 1,2%;
+	
+
+	}
+	
+#formular2{
+    float:right;
+    margin-top: -20px;
+    margin-right: 30%;
+    height: 300px;
+	width:200px; 
+	text-align: center;
+	padding: 10px 25px;;
+	opacity: 3.0;
+	font-family: Raleway, helvetica, sans-serif;
+	background-color: #B1C2C0;
+    
+    
+}
+
+p {
+	text-align:center;
+	font-weight: lighter;
+	font-size:30px;
+	font-family: Raleway, helvetica, sans-serif;
+	}
+	
+h1{
+	text-align:center;
+	font-weight: lighter;
+	margin-top:6%;
+	font-family: Raleway, helvetica, sans-serif;
+	}
+	
+#tekstfelt {
+	width:180px;
+	height:25px;
+	font-size:15px;
+	}
+	
+#knap{
+	width: 80px;
+	font-size:10px;
+	
+	}
+	
+#knap1{
+	width: 80px;
+	font-size:10px;
+	
+	}
 
 
-.menulinje{
+
+
+/*.menulinje{
 	color: #9E9E9E;
 	opacity: 6.0;
 	text-align: center;
@@ -18,13 +153,16 @@
     display: inline;
     font-family: Raleway, helvetica, sans-serif;
     font-weight: 300;
+   
 
 }
 
 nav{ 
-    margin-top: 4%;
+    margin-top: 2%;
     width: 100%;
+    height: 40px;
     text-align: center;
+    font-size: 22px;}
 	}
 
 a {
@@ -40,12 +178,35 @@ a:hover{
 	
 }
 
+/*#wrapper {
+    width: 70%;
+    margin-left: 10%;
+    
+    
+}
+
 #formular{
+    float: left;
+    margin-right: 3%;
 	height: 300px;
 	width:300px; 
 	text-align: center;
 	padding: 15px 30px;
-	border-radius: 20px;
+	border-radius: 10px;
+	opacity: 3.0;
+	font-family: Raleway, helvetica, sans-serif;
+	background-color: #B1C2C0;
+	font-weight:lighter;
+	letter-spacing: 2px;	
+
+	}
+	#formular2{
+	Float: left;
+	height: 300px;
+	width:300px; 
+	text-align: center;
+	padding: 15px 30px;
+	border-radius: 10px;
 	opacity: 3.0;
 	font-family: Raleway, helvetica, sans-serif;
 	background-color: #B1C2C0;

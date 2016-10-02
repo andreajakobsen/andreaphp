@@ -21,8 +21,8 @@ include 'menu.php';
 
 
 
-<h1>Du er nu logget ind</h1>
-<center><div><h4>Velkommen - du er nu oprettet i databasen <?php echo $_SESSION['username']; ?></h4></div></center>
+<h1></h1>
+<center><div><h4>Velkommen <?php echo $_SESSION['username']; ?></h4></div></center>
 </body>
 </html>
 
